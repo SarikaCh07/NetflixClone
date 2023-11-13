@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="stylee.css" />
+  </head>
+  <body>
+
+
+
+    <header class="navbar">
+      <div class="logo"></div>
+      <img class="nav__logo" src="netflix.png" alt="" />
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">TV Shows</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">New and Popular</a></li>
+              <li><a href="#">My List</a></li>
+              <li><a href="#">Browse by languages</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- header -->
+    <header class="nf">
+      <div class="main">
+        <h1 class="heading">WEDNESDAY</h1>
+        <div class="banner__buttons">
+          <button class="head_button">Play</button>
+          <button class="head_button">More Info</button>
+        </div>
+        <h1 class="head_desc">
+            Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy.
+        </h1>
+       
+      </div>
+      <div class="head_fade"></div>
+    </header>
+
+    <div class="part">
+      <h2>NETFLIX ORIGINALS</h2>
+      <div class="part_div">
+        <img class="part__poster" src="money.jpeg" alt="" />
+
+        <img class="part__poster" src="you.jpeg" alt="" />
+
+        <img class="part__poster" src="never.jpeg" alt="" />
+
+        <img class="part__poster" src="bridgerton.jpeg" alt="" />
+
+        <img class="part__poster" src="stranger.jpeg" alt="" />
+
+        <img class="part__poster " src="emily.jpeg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="part">
+      <h2>Trending Now</h2>
+      <div class="part_div">
+        <img class="part__poster" src="friendss.jpg" alt="" />
+
+        <img class="part__poster" src="wing.jpeg" alt="" />
+
+        <img class="part__poster" src="minions.jpg" alt="" />
+
+        <img class="part__poster" src="walking.jpg" alt="" />
+
+        <img class="part__poster" src="elite.jpg" alt="" />
+
+        <img class="part__poster" src="images/small-movie6.jpg" alt="" />
+
+        <img class="part__poster" src="images/small-movie7.jpg" alt="" />
+
+        <img class="part__poster" src="images/small-movie8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="part">
+      <h2>Top Rated</h2>
+      <div class="part_div">
+        <img class="part__poster" src="dark.jpg" alt="" />
+
+        <img class="part__poster" src="bodies.jpeg" alt="" />
+
+        <img class="part__poster" src="heart.jpg" alt="" />
+
+        <img class="part__poster" src="light.jpeg" alt="" />
+
+        <img class="part__poster" src="bird.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="part">
+      <h2>Action Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="narcos.jpg" alt="" />
+
+        <img class="part__poster" src="polar.jpg" alt="" />
+
+        <img class="part__poster" src="13.jpg" alt="" />
+
+        <img class="part__poster" src="hard.jpg" alt="" />
+
+        <img class="part__poster" src="spidey.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="part">
+      <h2>Romance Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="aka.jpg" alt="" />
+
+        <img class="part__poster" src="take.jpg" alt="" />
+
+        <img class="part__poster" src="minnal.jpg" alt="" />
+
+        <img class="part__poster" src="man.jpg" alt="" />
+
+        <img class="part__poster" src="out.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="part">
+      <h2>Horror Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="day.jpg" alt="" />
+
+        <img class="part__poster" src="insidious.jpg" alt="" />
+
+        <img class="part__poster" src="sister.jpg" alt="" />
+
+        <img class="part__poster" src="margaux.jpg" alt="" />
+
+        <img class="part__poster" src="invite.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Scifi Movies -->
+    <div class="part">
+      <h2>Sci-fi Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="scream.jpg" alt="" />
+
+        <img class="part__poster" src="legion.jpg" alt="" />
+
+        <img class="part__poster" src="mummy.jpg" alt="" />
+
+        <img class="part__poster" src="troll.jpg" alt="" />
+
+        <img class="part__poster" src="lucy.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Documentaries -->
+    <div class="part">
+      <h2>Documentaries</h2>
+      <div class="part_div">
+        <img class="part__poster" src="planet.jpg" alt="" />
+
+        <img class="part__poster" src="ele.jpg" alt="" />
+
+        <img class="part__poster" src="beckham.jpg" alt="" />
+
+        <img class="part__poster" src="arnold.jpg" alt="" />
+
+        <img class="part__poster" src="queen.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
